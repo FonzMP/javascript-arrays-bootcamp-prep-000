@@ -20,8 +20,9 @@ function destructivelyAddElementToEndOfArray() {
   return array;
 }
 
-function accessElementInArray() {
-
+function accessElementInArray(array, index) {
+  item = array[index];
+  return item;
 }
 
 function destructivelyRemoveElementFromBeginningOfArray() {
